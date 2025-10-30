@@ -139,8 +139,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       '@pnpm/types':
-        specifier: ^8.4.0
-        version: 8.4.0
+        specifier: ^1000.9.0
+        version: 1000.9.0
       '@types/fs-extra':
         specifier: ^9.0.13
         version: 9.0.13
@@ -399,8 +399,8 @@ importers:
         version: 0.11.2(esbuild@0.14.47)(rollup@2.75.7)(vite@5.4.10(@types/node@22.9.0)(sass@1.79.3)(terser@5.36.0))(vue@3.2.37)
     devDependencies:
       '@pnpm/types':
-        specifier: ^8.4.0
-        version: 8.4.0
+        specifier: ^1000.9.0
+        version: 1000.9.0
       tsx:
         specifier: ^4.19.3
         version: 4.19.3
@@ -2262,6 +2262,10 @@ packages:
   '@pnpm/render-peer-issues@2.0.5':
     resolution: {integrity: sha512-J2FOgp7HheHWE+0WwaQkR2Ab+osg0yVO8H750+7MBw2PTvUyeNMVAdgy3ddIRYRaogT90jjpJFiywxSt9kd/4g==}
     engines: {node: '>=14.6'}
+
+  '@pnpm/types@1000.9.0':
+    resolution: {integrity: sha512-UvDTCxnbyqkTg2X0dBOuZ4IdFJ8g4UFu0Ybv/5/cZAxCWVhNl1hC/Xc9hR4tZrlBL0NRFePLRhO/iw9LmA1lbw==}
+    engines: {node: '>=18.12'}
 
   '@pnpm/types@8.4.0':
     resolution: {integrity: sha512-sq/UdSq/jWCpYglw9SFmvR8qzUEi0p2oZIO0AHjkWWQg4Qrolf6DgD0WWmLiEP2WxHjbYeyD3ZzWzQor1+6cvw==}
@@ -10971,6 +10975,8 @@ snapshots:
       chalk: 4.1.2
       cli-columns: 4.0.0
 
+  '@pnpm/types@1000.9.0': {}
+
   '@pnpm/types@8.4.0': {}
 
   '@pnpm/write-project-manifest@3.0.5':
@@ -18876,7 +18882,7 @@ snapshots:
       eslint-visitor-keys: 4.2.1
       espree: 10.4.0
       esquery: 1.6.0
-      semver: 7.7.2
+      semver: 7.7.3
     transitivePeerDependencies:
       - supports-color
 
@@ -18905,7 +18911,7 @@ snapshots:
     dependencies:
       '@volar/typescript': 2.4.23
       '@vue/language-core': 2.1.6(typescript@5.5.4)
-      semver: 7.7.2
+      semver: 7.7.3
       typescript: 5.5.4
     optional: true
 
